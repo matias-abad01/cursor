@@ -1,14 +1,22 @@
-num1 = 2
-num2 = 3
-num3 = 4
-num4 = 5
-num5 = num1 + num2 + 5
-hola = num1 + num2 + num3 + num4 + num5 
-num6 = 7
-num7 = 8
-num8 = 9
-num9 = 19
-print(hola)
+arreglo = [1, 2, 3, 4, 5]
+
+def suma(arreglo):
+    """
+    Calcula la suma de todos los elementos de un arreglo.
+    
+    Args:
+        arreglo: Lista de números a sumar.
+    
+    Returns:
+        La suma total de todos los elementos del arreglo.
+    """
+    suma = 0
+    for i in arreglo:
+        suma += i
+    return suma
+total = suma(arreglo)
+
+print("La suma de los elementos del arreglo es: ", total)
 
    
    
