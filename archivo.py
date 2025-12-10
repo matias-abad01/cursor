@@ -1,4 +1,10 @@
+import pandas as pd
+import numpy as np
+ 
+
 arreglo = [1, 2, 3, 4, 5]
+df = pd.DataFrame(arreglo)
+print(df)
 
 def suma(arreglo):
     """
@@ -16,7 +22,7 @@ def suma(arreglo):
     return suma
 total = suma(arreglo)
 
-print("La suma de los elementos del arreglo es: ", total)
+
 
    
    
