@@ -8,6 +8,7 @@ print(df)
 
 def suma(arreglo):
     """
+    esto es un docstring
     Calcula la suma de todos los elementos de un arreglo.
     
     Args:
